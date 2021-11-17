@@ -1,0 +1,14 @@
+{
+    "name": "who",
+    "description": "Gif search on tenor.com",
+    "version": "1.0",
+    "manifest_version": 3,
+    "Content-Security-Policy": "default-src 'self' *.cloudflare.com",
+    "background": {
+      "service_worker": "script.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
