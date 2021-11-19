@@ -3,12 +3,17 @@
     "description": "Gif search on tenor.com",
     "version": "1.0",
     "manifest_version": 3,
-    "Content-Security-Policy": "default-src 'self' *.cloudflare.com",
     "background": {
       "service_worker": "script.js"
     },
     "permissions": ["storage"],
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/who16.png",
+        "32": "/images/who32.png",
+        "48": "/images/who48.png",
+        "128": "/images/who128.png"
+      }
     }
   }
