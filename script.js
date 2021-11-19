@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
     });
   }
   
-  var copyBtn = document.querySelector('.js-copy-to-clipboard');
+  var copyBtn = document.querySelector(".copy-to-clipboard-btn");
   
   copyBtn.addEventListener('click', function(event) {
     copyTextToClipboard('Bob');
