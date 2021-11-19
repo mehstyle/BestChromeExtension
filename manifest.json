@@ -1,12 +1,12 @@
 {
     "name": "who",
     "description": "Gif search on tenor.com",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "background": {
       "service_worker": "script.js"
     },
-    "permissions": ["storage"],
+    "permissions": ["storage", "activeTab", "scripting"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
